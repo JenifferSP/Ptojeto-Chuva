@@ -1,0 +1,303 @@
+
+*{
+    margin: 0 0 0 0;     
+    padding: 0;
+}
+
+.header-txt p{
+    text-align: left;
+    position: absolute;
+    left: 22%;
+    color: #000;
+}
+
+body{
+    margin: 0;
+    color: #000;
+    font-family: roboto, Nunito;
+}
+
+.content-header{
+    background: rgba(253, 104, 17, 0.3);
+    height: 10vh;
+    background-size: cover;
+}
+
+header, footer{
+    height: 10vh;
+    display: block;
+   
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    width: 5vh;
+    flex: 1;
+}
+
+/*Barra lateral esquerda*/
+aside{
+    height: 70vh;
+    background-color: #fff;
+    width: 20vw;
+    display: block;
+}
+
+.aside-logo{
+    color: white;
+    font-size: 30px;  
+}
+
+.aside-logo p{
+    margin-left: 48px;
+    padding-top: 10px;
+}
+
+.aside-left{
+    height: 110vh;
+    background-color: #fff;
+    width: 20vw;
+    position: fixed;
+}
+
+.aside-logo{
+    background-image: linear-gradient(to bottom, rgb(255, 95, 21), rgb(199, 69, 9) );
+    width:20vw;
+    height: 6vw;
+    position: fixed;
+    top: 0px;
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.267);
+}
+
+
+.aside-left-title{
+    text-align: center;
+    font-size: 55px;
+    display: block;
+    color:rgb(255, 95, 21);
+    font-weight: bold;
+    position: relative;
+    top: 180px;
+}
+
+
+.nav-nav-item{
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.267);
+    height: 100%;
+}
+.nav-nav-item label{
+    margin:2px 0 0 0px !important;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    height: 30px;
+    position: relative;
+    top: 190px;
+    padding-top: 13px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+}
+
+.nav-link:checked ~label{
+    background-color: rgba(253, 104, 17, 0.3);
+    border-left: 7px solid rgb(255, 95, 21);
+}
+
+.nav-link{
+    display: none;
+}
+
+    
+ 
+  
+/*Conteudo principal*/
+.contents-main{
+    position: relative;
+    text-align: center;
+    display: block;
+    left: 13%;
+}
+
+.contents-main p {
+    margin: 20px;
+    text-align: left;
+    position: relative;
+    display: block;
+    color: rgb(255, 95, 21);
+    left: 14%;
+    text-align: justify;
+}
+
+.contents-main-text{
+    position: relative;
+    left: 260px;
+    margin: 29px 58px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    padding: 0 0 12px 0;
+    border-radius: 4px 4px;
+}
+
+.contents-main-text h3{
+    position: relative;
+    top: 5px;
+   margin: 10px;
+}
+   
+.main-title{
+    background: rgba(255, 108, 23, 0.2);
+    height: 40px;
+    position: relative;
+    bottom: 10px;
+    color: rgb(58, 58, 58);
+}
+  
+
+
+.contents-main-discussao{
+    position: relative;
+    left: 260px;
+    margin: 0 58px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    border-radius: 4px 4px;
+    height: 255px !important;
+}
+
+
+.main-title-dois h3{
+    background: rgba(255, 108, 23, 0.2);
+    height: 40px;
+    color: rgb(58, 58, 58);
+    padding-top: 10px;
+    padding-left: 10px;
+  
+}
+
+.contents-main-discussao-btn{
+    position: relative;
+    bottom: 17px; cursor: pointer;
+}
+.btn-discussao:hover{
+    background-color: blue;
+}
+
+
+.contents-main-discussao-text p{
+    padding: 30px;
+}
+
+.content-main-discussao-icons i{
+    padding: 0 25px 0 0;
+    font-size:30px;
+    position: relative;
+    left: 13px;
+}
+
+/*ver mais*/
+.section {
+    position: relative;
+    background: #fff;
+}
+
+.section > .txt-more {   
+    /*posiciona o link no final da DIV*/
+    display: block;
+    position: absolute;
+    right: 3px;
+    bottom: -3px;
+    color: rgb(253, 128, 55);
+    background: #fff;
+    text-decoration: none; /*tira sumblinhado de hiperlink*/
+}
+
+.section > .partial {
+    height: 111px; /* limita a altura aqui, assim irá limitar o texto*/
+    overflow: hidden;
+}
+
+.section > a::before {
+    content: "Ocultar"; /*Texto de quando o texto estiver visivel*/
+     color: rgb(253, 128, 55);    
+}
+
+.section > a.txt-more::before {
+    content: "..Ver Mais"; /* texto para o link*/
+    font-size: 13px;
+}
+
+/*barra lateral direira*/
+.aside-right-container{
+    overflow: auto;
+    height: 62vh;
+    width: 36vh;
+    position: relative;
+    top: 19px;
+}
+
+.aside-right-container{
+    overflow: auto;
+    height: 61vh;
+    margin-right: 30px;
+    border: 1px solid;
+}
+
+.aside-right-container{
+    text-align: justify;
+}
+
+.text-aside-right{
+    opacity: 0.7;
+}
+
+.aside-right- button {
+   position: relative;
+   left: 60px;
+   margin: 0 3px ;
+   top: 15px;
+}
+
+/*roda pe*/
+
+
+
+.footer-linha{
+    width: 160vh;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    position: relative;
+    top: 37px;
+  
+}
+.footer-all{
+    position: absolute;
+    left: 23%;
+    margin-top: 50px;
+}
+
+.footer-txt{
+    position: relative;
+    left: 3%;
+    font-size: 14px;
+    text-align: justify;
+    display: inline-block; 
+    margin-bottom: 55px;  
+    margin-top: 90px;
+}
+
+.footer-btn{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.footer-btn-SM button{
+    border: none;
+    background-color: rgb(81, 21, 138);
+    border-radius: 4px 4px;
+    color: #fff;
+
+}
