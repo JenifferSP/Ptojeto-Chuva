@@ -1,5 +1,5 @@
 # Projeto-Chuva
 
-<p>Nesse projeto estou tentando refazer uma interface de um site apartir de uma foto de referencia., na unha, utilizando o minim de sites externos<br/>
-  Meu principal objetivo é treino e pratica, além de medir minha habilidade atual
+<p>Nesse projeto estou tentando refazer uma interface de um site a partir de uma foto de referencia, na unha, utilizando o minimo de sites externos para auxilio.<br/>
+  Meu principal objetivo é treino e pratica, além de medir minhas habilidades atuais
 </p>
